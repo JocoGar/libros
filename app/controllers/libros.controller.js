@@ -1,5 +1,5 @@
 const db = require('../config/db.config.js');
-const Libro = db.Libro;
+const Libro = db.libros;
 
 exports.create = (req, res) => {
     let libro = {};
